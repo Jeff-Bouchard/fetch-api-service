@@ -2,7 +2,7 @@ repo_name: Jeff-Bouchard/fetch-api-service
 report_id: 71cdb08342600d12a82b0944b47899c9
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-04T16:01:50+00:00'
+timestamp: '2024-02-29T19:53:00+00:00'
 requested_by: bchamagne
 provider: github
 branch: master
@@ -21,7 +21,7 @@ tools:
   detection_source_url: https://github.com/Jeff-Bouchard/fetch-api-service
   detection_source: Repo Metadata
 - name: Cowboy
-  description: 'Small, fast, modular HTTP server written in Erlang. '
+  description: Small, fast, modular HTTP server written in Erlang.
   website_url: https://github.com/ninenines/cowboy
   license: ISC
   open_source: true
