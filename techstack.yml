@@ -1,0 +1,81 @@
+repo_name: Jeff-Bouchard/fetch-api-service
+report_id: 71cdb08342600d12a82b0944b47899c9
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:53:00+00:00'
+requested_by: bchamagne
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: Elixir
+  description: Dynamic, functional language designed for building scalable and maintainable
+    applications
+  website_url: http://elixir-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1974/drop.png
+  detection_source_url: https://github.com/Jeff-Bouchard/fetch-api-service
+  detection_source: Repo Metadata
+- name: Cowboy
+  description: Small, fast, modular HTTP server written in Erlang.
+  website_url: https://github.com/ninenines/cowboy
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/2738/1166740.png
+  detection_source_url: https://github.com/Jeff-Bouchard/fetch-api-service/blob/master/mix.exs
+  detection_source: mix.exs
+  last_updated_by: bchamagne
+  last_updated_on: 2024-01-09 16:48:09.000000000 Z
+- name: Credo
+  description: A static code analysis tool for the Elixir language
+  website_url: http://credo-ci.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5767/logo-462574d6fafd52114ceb5556a09cdf5a.png
+  detection_source_url: https://github.com/Jeff-Bouchard/fetch-api-service/blob/master/mix.exs
+  detection_source: mix.exs
+  last_updated_by: bchamagne
+  last_updated_on: 2024-01-09 14:40:26.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jeff-Bouchard/fetch-api-service
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Jeff-Bouchard/fetch-api-service/blob/master/.github/workflows/elixir.yml
+  detection_source: ".github/workflows/elixir.yml"
+  last_updated_by: bchamagne
+  last_updated_on: 2024-01-09 17:19:03.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Jeff-Bouchard/fetch-api-service
+  detection_source: Repo Metadata
